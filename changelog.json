@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "0.2.11-beta.7",
+      "date": "2026-11-05",
+      "beta": true,
+      "changes": [
+        {
+          "id": "long-chats-scroll-smoothly",
+          "kind": "fixed",
+          "title": "Long chats scroll smoothly",
+          "body": "They no longer flicker as you scroll, and open on their newest messages at once."
+        },
+        {
+          "id": "questions-fit-the-chat",
+          "kind": "fixed",
+          "title": "Questions from the agent stay as wide as the message box"
+        }
+      ]
+    },
+    {
       "version": "0.2.11-beta.6",
       "date": "2026-11-05",
       "beta": true,
