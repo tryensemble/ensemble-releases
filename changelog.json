@@ -1,6 +1,54 @@
 {
   "versions": [
     {
+      "version": "0.2.11-beta.6",
+      "date": "2026-11-05",
+      "beta": true,
+      "changes": [
+        {
+          "id": "edit-last-message",
+          "kind": "new",
+          "title": "Edit your last message",
+          "body": "Change what you sent and the agent starts over from there, with the files its reply changed put back."
+        },
+        {
+          "id": "open-in-your-editor",
+          "kind": "new",
+          "title": "Open a thread in your editor or terminal",
+          "body": "Your editors, terminals and Finder sit in the top bar and open in the thread's folder."
+        },
+        {
+          "id": "copy-thread-link",
+          "kind": "new",
+          "title": "Copy a thread's link",
+          "body": "Paste it into a message to point the agent at that thread."
+        },
+        {
+          "id": "side-by-side-diffs",
+          "kind": "improved",
+          "title": "Side-by-side diffs",
+          "body": "Old and new side by side, unchanged lines folded, and only the words that changed marked."
+        },
+        {
+          "id": "no-iphone-app-or-cloud",
+          "kind": "removed",
+          "title": "The iPhone app and Ensemble Cloud",
+          "body": "With them go the inbox, online mode and thread summaries; Ensemble runs threads on your computer and in cloud sandboxes."
+        },
+        {
+          "id": "no-own-servers",
+          "kind": "removed",
+          "title": "Threads on your own servers over SSH"
+        },
+        {
+          "id": "no-helper-chats",
+          "kind": "removed",
+          "title": "Helper chats and sub-threads",
+          "body": "With notes between threads, combining threads, the Lead and the autonomy setting. Side chats and to-dos stay."
+        }
+      ]
+    },
+    {
       "version": "0.2.11-beta.5",
       "date": "2026-10-26",
       "beta": true,
@@ -15,7 +63,7 @@
           "id": "replies-start-at-once",
           "kind": "improved",
           "title": "Replies start right away",
-          "body": "Your agent stays ready between messages, so the next one starts at once instead of after a few seconds, and replies on Ensemble VMs come in smoothly as they're written."
+          "body": "Your agent stays ready between messages, so the next one starts at once instead of after a few seconds."
         },
         {
           "id": "settings-page",
@@ -128,18 +176,6 @@
       "version": "0.2.10",
       "date": "2026-10-20",
       "changes": [
-        {
-          "id": "report-bugs-and-ideas",
-          "kind": "new",
-          "title": "Report a bug or suggest an idea from the app",
-          "body": "From the Help menu, or with /bug and /feedback in a message box."
-        },
-        {
-          "id": "sidebar-who-acts-next",
-          "kind": "new",
-          "title": "The sidebar groups threads by who acts next",
-          "body": "Needs you, Ready to merge, Working and Done."
-        },
         {
           "id": "whats-new",
           "kind": "new",
