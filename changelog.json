@@ -1,46 +1,8 @@
 {
   "versions": [
     {
-      "version": "0.2.11-beta.8",
+      "version": "0.2.11",
       "date": "2026-11-06",
-      "beta": true,
-      "changes": [
-        {
-          "id": "background-work-shows",
-          "kind": "fixed",
-          "title": "Agents waiting on a build or checks keep working",
-          "body": "What the agent left running in the background shows in the chat until it finishes, and the agent carries on from there instead of stopping at done."
-        },
-        {
-          "id": "mac-stays-responsive",
-          "kind": "fixed",
-          "title": "Your Mac stays responsive with many threads",
-          "body": "Archiving and deleting threads no longer slows your Mac down or leaves the app looking disconnected."
-        }
-      ]
-    },
-    {
-      "version": "0.2.11-beta.7",
-      "date": "2026-11-05",
-      "beta": true,
-      "changes": [
-        {
-          "id": "long-chats-scroll-smoothly",
-          "kind": "fixed",
-          "title": "Long chats scroll smoothly",
-          "body": "They no longer flicker as you scroll, and open on their newest messages at once."
-        },
-        {
-          "id": "questions-fit-the-chat",
-          "kind": "fixed",
-          "title": "Questions from the agent stay as wide as the message box"
-        }
-      ]
-    },
-    {
-      "version": "0.2.11-beta.6",
-      "date": "2026-11-05",
-      "beta": true,
       "changes": [
         {
           "id": "edit-last-message",
@@ -61,10 +23,122 @@
           "body": "Paste it into a message to point the agent at that thread."
         },
         {
+          "id": "steer-codex",
+          "kind": "new",
+          "title": "Steer Codex while it works",
+          "body": "Codex takes a message at its next step, shows its reply as it writes it, and stops when you press Stop."
+        },
+        {
+          "id": "steer-while-it-works",
+          "kind": "new",
+          "title": "Steer the agent while it works",
+          "body": "Send now and ⌘↵ give Claude your message at its next step instead of stopping it."
+        },
+        {
+          "id": "ensemble-api",
+          "kind": "new",
+          "title": "An API for programs on your Mac",
+          "body": "Once you allow them, other programs can list and start threads, send messages and follow along, also over MCP; manage them in Settings › Ensemble API."
+        },
+        {
+          "id": "clearer-chat",
+          "kind": "new",
+          "title": "A clearer chat",
+          "body": "The agent's work folds into one line above its reply, and what it asks of you and what you did each get a line of their own."
+        },
+        {
+          "id": "answer-parts-of-a-reply",
+          "kind": "new",
+          "title": "Answer parts of a reply",
+          "body": "Select what the agent said, write your answer under it, and send your answers together as one message."
+        },
+        {
+          "id": "codex-newest-models",
+          "kind": "new",
+          "title": "Codex's newest models in the model menu",
+          "body": "GPT-6.1-Sol, GPT-6-Astra and the others Codex offers today, instead of GPT-5.5 alone."
+        },
+        {
+          "id": "codex-usage",
+          "kind": "new",
+          "title": "See how much of your Codex plan is used",
+          "body": "For ChatGPT sign-ins, your computer's own included, beside Claude's in the usage popover and in Settings."
+        },
+        {
           "id": "side-by-side-diffs",
           "kind": "improved",
           "title": "Side-by-side diffs",
           "body": "Old and new side by side, unchanged lines folded, and only the words that changed marked."
+        },
+        {
+          "id": "replies-start-at-once",
+          "kind": "improved",
+          "title": "Replies start right away",
+          "body": "Your agent stays ready between messages, so the next one starts at once instead of after a few seconds."
+        },
+        {
+          "id": "settings-page",
+          "kind": "improved",
+          "title": "Settings as a page of their own",
+          "body": "Settings open over the whole window, with room for every section."
+        },
+        {
+          "id": "less-memory",
+          "kind": "improved",
+          "title": "Less memory over long sessions",
+          "body": "The app keeps only the chats you have open in full, and no longer grows the longer it runs."
+        },
+        {
+          "id": "one-button-message-box",
+          "kind": "improved",
+          "title": "One button in the message box",
+          "body": "The mic while it's empty, send once you type, and Stop or Queue while the agent works."
+        },
+        {
+          "id": "usage-percentages",
+          "kind": "improved",
+          "title": "Usage shows percentages, and says when it's out of date",
+          "body": "Each window shows how much is used, and a reading that couldn't be refreshed is dimmed with its age."
+        },
+        {
+          "id": "background-work-shows",
+          "kind": "fixed",
+          "title": "Agents waiting on a build or checks keep working",
+          "body": "What the agent left running in the background shows in the chat until it finishes, and the agent carries on from there instead of stopping at done."
+        },
+        {
+          "id": "mac-stays-responsive",
+          "kind": "fixed",
+          "title": "Your Mac stays responsive with many threads",
+          "body": "Archiving and deleting threads no longer slows your Mac down or leaves the app looking disconnected."
+        },
+        {
+          "id": "long-chats-scroll-smoothly",
+          "kind": "fixed",
+          "title": "Long chats scroll smoothly",
+          "body": "They no longer flicker as you scroll, and open on their newest messages at once."
+        },
+        {
+          "id": "questions-fit-the-chat",
+          "kind": "fixed",
+          "title": "Questions from the agent stay as wide as the message box"
+        },
+        {
+          "id": "updates-in-the-background",
+          "kind": "fixed",
+          "title": "Updates no longer pull the app to the front on Windows",
+          "body": "A new version downloads in the background and goes in when you restart. On Linux too."
+        },
+        {
+          "id": "slash-commands-run",
+          "kind": "fixed",
+          "title": "/compact and skills run when you type them",
+          "body": "They reached the agent as plain text."
+        },
+        {
+          "id": "no-done-on-reopen",
+          "kind": "fixed",
+          "title": "Reopening or forking a thread no longer pings that it's done"
         },
         {
           "id": "no-iphone-app-or-cloud",
@@ -82,130 +156,6 @@
           "kind": "removed",
           "title": "Helper chats and sub-threads",
           "body": "With notes between threads, combining threads, the Lead and the autonomy setting. Side chats and to-dos stay."
-        }
-      ]
-    },
-    {
-      "version": "0.2.11-beta.5",
-      "date": "2026-10-26",
-      "beta": true,
-      "changes": [
-        {
-          "id": "steer-codex",
-          "kind": "new",
-          "title": "Steer Codex while it works",
-          "body": "Codex takes a message at its next step, shows its reply as it writes it, and stops when you press Stop."
-        },
-        {
-          "id": "replies-start-at-once",
-          "kind": "improved",
-          "title": "Replies start right away",
-          "body": "Your agent stays ready between messages, so the next one starts at once instead of after a few seconds."
-        },
-        {
-          "id": "settings-page",
-          "kind": "improved",
-          "title": "Settings as a page of their own",
-          "body": "Settings open over the whole window, with room for every section."
-        }
-      ]
-    },
-    {
-      "version": "0.2.11-beta.4",
-      "date": "2026-10-22",
-      "beta": true,
-      "changes": [
-        {
-          "id": "steer-while-it-works",
-          "kind": "new",
-          "title": "Steer the agent while it works",
-          "body": "Send now and ⌘↵ give Claude your message at its next step instead of stopping it."
-        },
-        {
-          "id": "ensemble-api",
-          "kind": "new",
-          "title": "An API for programs on your Mac",
-          "body": "Once you allow them, other programs can list and start threads, send messages and follow along, also over MCP; manage them in Settings › Ensemble API."
-        },
-        {
-          "id": "less-memory",
-          "kind": "improved",
-          "title": "Less memory over long sessions",
-          "body": "The app keeps only the chats you have open in full, and no longer grows the longer it runs."
-        }
-      ]
-    },
-    {
-      "version": "0.2.11-beta.3",
-      "date": "2026-10-22",
-      "beta": true,
-      "changes": [
-        {
-          "id": "clearer-chat",
-          "kind": "new",
-          "title": "A clearer chat",
-          "body": "The agent's work folds into one line above its reply, and what it asks of you and what you did each get a line of their own."
-        },
-        {
-          "id": "answer-parts-of-a-reply",
-          "kind": "new",
-          "title": "Answer parts of a reply",
-          "body": "Select what the agent said, write your answer under it, and send your answers together as one message."
-        },
-        {
-          "id": "one-button-message-box",
-          "kind": "improved",
-          "title": "One button in the message box",
-          "body": "The mic while it's empty, send once you type, and Stop or Queue while the agent works."
-        }
-      ]
-    },
-    {
-      "version": "0.2.11-beta.2",
-      "date": "2026-10-22",
-      "beta": true,
-      "changes": [
-        {
-          "id": "codex-newest-models",
-          "kind": "new",
-          "title": "Codex's newest models in the model menu",
-          "body": "GPT-6.1-Sol, GPT-6-Astra and the others Codex offers today, instead of GPT-5.5 alone."
-        },
-        {
-          "id": "codex-usage",
-          "kind": "new",
-          "title": "See how much of your Codex plan is used",
-          "body": "For ChatGPT sign-ins, your computer's own included, beside Claude's in the usage popover and in Settings."
-        },
-        {
-          "id": "usage-percentages",
-          "kind": "improved",
-          "title": "Usage shows percentages, and says when it's out of date",
-          "body": "Each window shows how much is used, and a reading that couldn't be refreshed is dimmed with its age."
-        }
-      ]
-    },
-    {
-      "version": "0.2.11-beta.1",
-      "date": "2026-10-21",
-      "beta": true,
-      "changes": [
-        {
-          "id": "updates-in-the-background",
-          "kind": "fixed",
-          "title": "Updates no longer pull the app to the front on Windows",
-          "body": "A new version downloads in the background and goes in when you restart. On Linux too."
-        },
-        {
-          "id": "slash-commands-run",
-          "kind": "fixed",
-          "title": "/compact and skills run when you type them",
-          "body": "They reached the agent as plain text."
-        },
-        {
-          "id": "no-done-on-reopen",
-          "kind": "fixed",
-          "title": "Reopening or forking a thread no longer pings that it's done"
         }
       ]
     },
