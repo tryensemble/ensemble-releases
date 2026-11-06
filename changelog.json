@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "0.2.11-beta.8",
+      "date": "2026-11-06",
+      "beta": true,
+      "changes": [
+        {
+          "id": "background-work-shows",
+          "kind": "fixed",
+          "title": "Agents waiting on a build or checks keep working",
+          "body": "What the agent left running in the background shows in the chat until it finishes, and the agent carries on from there instead of stopping at done."
+        },
+        {
+          "id": "mac-stays-responsive",
+          "kind": "fixed",
+          "title": "Your Mac stays responsive with many threads",
+          "body": "Archiving and deleting threads no longer slows your Mac down or leaves the app looking disconnected."
+        }
+      ]
+    },
+    {
       "version": "0.2.11-beta.7",
       "date": "2026-11-05",
       "beta": true,
