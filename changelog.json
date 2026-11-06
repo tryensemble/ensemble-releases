@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.2.12-beta.1",
+      "date": "2026-11-06",
+      "beta": true,
+      "changes": [
+        {
+          "id": "chats-open-with-latest",
+          "kind": "fixed",
+          "title": "Chats open at once with your latest messages",
+          "body": "Going back to a thread no longer flickers or leaves out what you just sent."
+        }
+      ]
+    },
+    {
       "version": "0.2.11",
       "date": "2026-11-06",
       "changes": [
