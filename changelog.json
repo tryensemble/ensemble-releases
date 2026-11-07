@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "0.2.12-beta.4",
+      "date": "2026-11-07",
+      "beta": true,
+      "changes": [
+        {
+          "id": "no-sync-wait",
+          "kind": "improved",
+          "title": "No more waiting for your threads to sync",
+          "body": "After an update or a long sleep your threads are there at once, and a long chat opens on its latest messages while the earlier ones load in above."
+        },
+        {
+          "id": "sent-message-in-view",
+          "kind": "improved",
+          "title": "Sending a message takes you to it",
+          "body": "Scrolled up in a chat, sending glides it back down to your message."
+        }
+      ]
+    },
+    {
       "version": "0.2.12-beta.3",
       "date": "2026-11-07",
       "beta": true,
