@@ -1,6 +1,31 @@
 {
   "versions": [
     {
+      "version": "0.2.12-beta.2",
+      "date": "2026-11-07",
+      "beta": true,
+      "changes": [
+        {
+          "id": "thread-target-branch",
+          "kind": "new",
+          "title": "Choose the branch a thread's work goes into",
+          "body": "Pick it with \"into main\" in the Git status panel: the changes, Merge main in and the pull request follow it."
+        },
+        {
+          "id": "pull-requests-update-at-once",
+          "kind": "improved",
+          "title": "Pull requests show up the moment they open",
+          "body": "Whether you or the agent opens, pushes or merges, the sidebar and status bar follow right away."
+        },
+        {
+          "id": "archive-asks-about-unpushed-work",
+          "kind": "improved",
+          "title": "Archiving asks about work that isn't pushed",
+          "body": "Push it and archive, archive anyway, or cancel. Moving a thread to another machine asks the same."
+        }
+      ]
+    },
+    {
       "version": "0.2.12-beta.1",
       "date": "2026-11-06",
       "beta": true,
