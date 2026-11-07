@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "0.2.12-beta.3",
+      "date": "2026-11-07",
+      "beta": true,
+      "changes": [
+        {
+          "id": "threads-show-at-once",
+          "kind": "improved",
+          "title": "Threads show at once when the app opens",
+          "body": "They update as they load, and a chat still loading shows its outline instead of a blank page."
+        },
+        {
+          "id": "agent-pages-show",
+          "kind": "fixed",
+          "title": "Charts and tables the agent shows appear in its reply"
+        }
+      ]
+    },
+    {
       "version": "0.2.12-beta.2",
       "date": "2026-11-07",
       "beta": true,
