@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.2.12-beta.5",
+      "date": "2026-11-07",
+      "beta": true,
+      "changes": [
+        {
+          "id": "chats-open-without-flicker",
+          "kind": "fixed",
+          "title": "Chats open at once, without flickering",
+          "body": "A chat opens on its latest messages and loads the earlier ones as you scroll up."
+        }
+      ]
+    },
+    {
       "version": "0.2.12-beta.4",
       "date": "2026-11-07",
       "beta": true,
