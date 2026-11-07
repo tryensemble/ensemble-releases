@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.2.12-beta.6",
+      "date": "2026-11-07",
+      "beta": true,
+      "changes": [
+        {
+          "id": "edits-and-queued-messages-stay-put",
+          "kind": "fixed",
+          "title": "Edited and queued messages no longer jump the chat",
+          "body": "An edited message shows its new words as soon as you send it, and a message queued behind a running turn leaves the chat where you are."
+        }
+      ]
+    },
+    {
       "version": "0.2.12-beta.5",
       "date": "2026-11-07",
       "beta": true,
