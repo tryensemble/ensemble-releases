@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "0.2.13",
+      "date": "2026-11-09",
+      "changes": [
+        {
+          "id": "fable-5-2",
+          "kind": "new",
+          "title": "Fable 5.2 in the model menu",
+          "body": "Fable runs Anthropic's newest model, and Sonnet and Haiku their 5.5 versions."
+        },
+        {
+          "id": "fable-usage-on-its-own",
+          "kind": "improved",
+          "title": "Fable's share of your plan, on its own",
+          "body": "The usage popover shows how much of the week's Fable allowance each login has used. When it runs out, a Fable chat moves to another login, and chats on other models stay where they are."
+        }
+      ]
+    },
+    {
       "version": "0.2.12",
       "date": "2026-11-07",
       "changes": [
@@ -15,6 +33,35 @@
           "kind": "improved",
           "title": "Threads and chats open at once",
           "body": "No more waiting to sync after an update: your threads are there at once, and a chat opens on its latest messages, loading the earlier ones as you scroll up."
+        },
+        {
+          "id": "sent-message-in-view",
+          "kind": "improved",
+          "title": "Sending a message takes you to it",
+          "body": "Scrolled up in a chat, sending glides it back down to your message."
+        },
+        {
+          "id": "pull-requests-update-at-once",
+          "kind": "improved",
+          "title": "Pull requests show up the moment they open",
+          "body": "Whether you or the agent opens, pushes or merges, the sidebar and status bar follow right away."
+        },
+        {
+          "id": "archive-asks-about-unpushed-work",
+          "kind": "improved",
+          "title": "Archiving asks about work that isn't pushed",
+          "body": "Push it and archive, archive anyway, or cancel. Moving a thread to another machine asks the same."
+        },
+        {
+          "id": "edits-and-queued-messages-stay-put",
+          "kind": "fixed",
+          "title": "Edited and queued messages no longer jump the chat",
+          "body": "An edited message shows its new words as soon as you send it, and a message queued behind a running turn leaves the chat where you are."
+        },
+        {
+          "id": "agent-pages-show",
+          "kind": "fixed",
+          "title": "Charts and tables the agent shows appear in its reply"
         }
       ]
     },
@@ -35,16 +82,40 @@
           "body": "Your editors, terminals and Finder sit in the top bar and open in the thread's folder."
         },
         {
+          "id": "copy-thread-link",
+          "kind": "new",
+          "title": "Copy a thread's link",
+          "body": "Paste it into a message to point the agent at that thread."
+        },
+        {
+          "id": "steer-codex",
+          "kind": "new",
+          "title": "Steer Codex while it works",
+          "body": "Codex takes a message at its next step, shows its reply as it writes it, and stops when you press Stop."
+        },
+        {
           "id": "steer-while-it-works",
           "kind": "new",
           "title": "Steer the agent while it works",
-          "body": "Send now and ⌘↵ give Claude or Codex your message at its next step instead of stopping it."
+          "body": "Send now and ⌘↵ give Claude your message at its next step instead of stopping it."
         },
         {
           "id": "ensemble-api",
           "kind": "new",
           "title": "An API for programs on your Mac",
           "body": "Once you allow them, other programs can list and start threads, send messages and follow along, also over MCP; manage them in Settings › Ensemble API."
+        },
+        {
+          "id": "clearer-chat",
+          "kind": "new",
+          "title": "A clearer chat",
+          "body": "The agent's work folds into one line above its reply, and what it asks of you and what you did each get a line of their own."
+        },
+        {
+          "id": "answer-parts-of-a-reply",
+          "kind": "new",
+          "title": "Answer parts of a reply",
+          "body": "Select what the agent said, write your answer under it, and send your answers together as one message."
         },
         {
           "id": "codex-newest-models",
@@ -69,6 +140,70 @@
           "kind": "improved",
           "title": "Replies start right away",
           "body": "Your agent stays ready between messages, so the next one starts at once instead of after a few seconds."
+        },
+        {
+          "id": "settings-page",
+          "kind": "improved",
+          "title": "Settings as a page of their own",
+          "body": "Settings open over the whole window, with room for every section."
+        },
+        {
+          "id": "less-memory",
+          "kind": "improved",
+          "title": "Less memory over long sessions",
+          "body": "The app keeps only the chats you have open in full, and no longer grows the longer it runs."
+        },
+        {
+          "id": "one-button-message-box",
+          "kind": "improved",
+          "title": "One button in the message box",
+          "body": "The mic while it's empty, send once you type, and Stop or Queue while the agent works."
+        },
+        {
+          "id": "usage-percentages",
+          "kind": "improved",
+          "title": "Usage shows percentages, and says when it's out of date",
+          "body": "Each window shows how much is used, and a reading that couldn't be refreshed is dimmed with its age."
+        },
+        {
+          "id": "background-work-shows",
+          "kind": "fixed",
+          "title": "Agents waiting on a build or checks keep working",
+          "body": "What the agent left running in the background shows in the chat until it finishes, and the agent carries on from there instead of stopping at done."
+        },
+        {
+          "id": "mac-stays-responsive",
+          "kind": "fixed",
+          "title": "Your Mac stays responsive with many threads",
+          "body": "Archiving and deleting threads no longer slows your Mac down or leaves the app looking disconnected."
+        },
+        {
+          "id": "long-chats-scroll-smoothly",
+          "kind": "fixed",
+          "title": "Long chats scroll smoothly",
+          "body": "They no longer flicker as you scroll, and open on their newest messages at once."
+        },
+        {
+          "id": "questions-fit-the-chat",
+          "kind": "fixed",
+          "title": "Questions from the agent stay as wide as the message box"
+        },
+        {
+          "id": "updates-in-the-background",
+          "kind": "fixed",
+          "title": "Updates no longer pull the app to the front on Windows",
+          "body": "A new version downloads in the background and goes in when you restart. On Linux too."
+        },
+        {
+          "id": "slash-commands-run",
+          "kind": "fixed",
+          "title": "/compact and skills run when you type them",
+          "body": "They reached the agent as plain text."
+        },
+        {
+          "id": "no-done-on-reopen",
+          "kind": "fixed",
+          "title": "Reopening or forking a thread no longer pings that it's done"
         },
         {
           "id": "no-iphone-app-or-cloud",
