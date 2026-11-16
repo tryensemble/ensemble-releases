@@ -1,6 +1,30 @@
 {
   "versions": [
     {
+      "version": "0.3.1",
+      "date": "2026-11-16",
+      "changes": [
+        {
+          "id": "banner-reply-right-question",
+          "kind": "fixed",
+          "title": "A reply from a banner answers the question it showed",
+          "body": "With several chats asking at once, a reply typed in a notification now goes to the chat it came from."
+        },
+        {
+          "id": "terminal-keeps-sandbox-awake",
+          "kind": "fixed",
+          "title": "A cloud session stays awake while you watch its terminal",
+          "body": "A dev server or a long test run in the terminal is no longer stopped because nothing was typed."
+        },
+        {
+          "id": "automations-keep-running",
+          "kind": "fixed",
+          "title": "Automations keep to their schedule",
+          "body": "An automation no longer stops running after one of its sessions is deleted, and renaming one keeps what its triggers were watching."
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "date": "2026-11-16",
       "changes": [
