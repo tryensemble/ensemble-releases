@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "date": "2026-11-16",
+      "changes": [
+        {
+          "id": "a-new-ensemble",
+          "kind": "new",
+          "title": "A new Ensemble",
+          "body": "Sessions, projects and settings rebuilt around one sidebar, with a calmer look: New session at the top, your projects with their counts, and every session with where it stands.",
+          "image": "https://tryensemble.co/changelog/a-new-ensemble.png"
+        },
+        {
+          "id": "automations",
+          "kind": "new",
+          "title": "Automations",
+          "body": "Sessions that start on their own: on a schedule, or when a pull request opens, checks fail, an issue gets a label, a Linear issue comes in or Sentry sees a new error.",
+          "image": "https://tryensemble.co/changelog/automations.png"
+        },
+        {
+          "id": "tab-groups",
+          "kind": "new",
+          "title": "Side-by-side tabs",
+          "body": "Drag a tab to an edge of a session to open it beside the others, as in VS Code."
+        },
+        {
+          "id": "session-terminal",
+          "kind": "new",
+          "title": "A terminal in every session",
+          "body": "Press ⌘J for a shell in the session's own folder."
+        },
+        {
+          "id": "disk-space",
+          "kind": "new",
+          "title": "See and free up disk space",
+          "body": "Each machine's settings show what its sessions take, and clear build output or delete old archived sessions in a click."
+        },
+        {
+          "id": "search-everything",
+          "kind": "improved",
+          "title": "⌘K finds everything",
+          "body": "Sessions, projects, actions and settings in one search, with tabs to narrow it down."
+        },
+        {
+          "id": "first-run",
+          "kind": "improved",
+          "title": "A faster first run",
+          "body": "Set up your agents, GitHub and projects in three steps, with your recent projects and conversations brought in."
+        },
+        {
+          "id": "chat-keeps-model",
+          "kind": "fixed",
+          "title": "A chat keeps the model you last used in it"
+        }
+      ]
+    },
+    {
       "version": "0.2.13",
       "date": "2026-11-09",
       "changes": [
