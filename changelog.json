@@ -1,6 +1,25 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.3",
+      "date": "2026-11-18",
+      "beta": true,
+      "changes": [
+        {
+          "id": "sub-threads-return",
+          "kind": "new",
+          "title": "Sub-threads are back",
+          "body": "An agent can hand parts of its work to sub-threads, each on a branch of its own. They show at the top of its chat, ask it or you when they're stuck, and their work is pulled into its branch."
+        },
+        {
+          "id": "codex-subagents-in-chat",
+          "kind": "improved",
+          "title": "See Codex's subagents in the chat",
+          "body": "What each subagent Codex starts does shows in the chat, as Claude Code's subagents do."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.2",
       "date": "2026-11-18",
       "beta": true,
