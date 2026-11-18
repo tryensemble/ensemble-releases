@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "0.3.2",
+      "date": "2026-11-18",
+      "changes": [
+        {
+          "id": "pull-request-beside-chat",
+          "kind": "new",
+          "title": "Pull requests open beside the chat",
+          "body": "When a session opens a pull request, it opens as a tab next to the chat, with its checks, review and description."
+        },
+        {
+          "id": "changes-by-folder",
+          "kind": "improved",
+          "title": "Review changes folder by folder",
+          "body": "The Changes tab folds by folder and tucks away files you've marked Viewed, so only what's left to review shows."
+        },
+        {
+          "id": "full-command-calls",
+          "kind": "improved",
+          "title": "See every command and tool call in full",
+          "body": "Opening a step shows its whole call and its output line by line, live while it runs."
+        },
+        {
+          "id": "codex-runs-claude",
+          "kind": "improved",
+          "title": "Codex can call on Claude Code in cloud sessions",
+          "body": "An agent in a cloud session can run the other one, signed in with your account."
+        },
+        {
+          "id": "faster-sending-switching",
+          "kind": "improved",
+          "title": "Faster with screenshots and many chats",
+          "body": "A message with pasted screenshots sends at once, and switching between chats is instant."
+        },
+        {
+          "id": "stays-responsive",
+          "kind": "fixed",
+          "title": "Ensemble stays responsive all day",
+          "body": "The app no longer slows down as notifications pile up in Notification Center."
+        },
+        {
+          "id": "retry-after-limit-reset",
+          "kind": "fixed",
+          "title": "Retry works as soon as your usage limit resets",
+          "body": "A retry after an early reset now reaches your agent instead of saying every account is out."
+        },
+        {
+          "id": "codex-chat-complete",
+          "kind": "fixed",
+          "title": "Codex chats show everything Claude chats do",
+          "body": "Pages, suggestions to move a session and the diff of each edit now show in a Codex chat too."
+        }
+      ]
+    },
+    {
       "version": "0.3.1",
       "date": "2026-11-16",
       "changes": [
