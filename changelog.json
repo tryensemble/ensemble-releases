@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.2",
+      "date": "2026-11-18",
+      "beta": true,
+      "changes": [
+        {
+          "id": "pull-request-tab-panel-width",
+          "kind": "improved",
+          "title": "The pull request tab opens at the side panel's width",
+          "body": "The chat keeps most of the window, and the pull request's details line up in one column."
+        }
+      ]
+    },
+    {
       "version": "0.3.2",
       "date": "2026-11-18",
       "changes": [
