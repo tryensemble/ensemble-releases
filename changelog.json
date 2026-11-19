@@ -1,6 +1,31 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.5",
+      "date": "2026-11-19",
+      "beta": true,
+      "changes": [
+        {
+          "id": "waking-sandbox-strip",
+          "kind": "improved",
+          "title": "A waking sandbox shows above the message box",
+          "body": "As compacting does: where it is and how long it's taking, without filling the chat."
+        },
+        {
+          "id": "clearer-sub-thread-updates",
+          "kind": "improved",
+          "title": "Clearer updates from sub-threads",
+          "body": "Their reports read like the steps around them, and one waiting on a run says when it's back instead of showing as done."
+        },
+        {
+          "id": "moves-no-longer-freeze",
+          "kind": "fixed",
+          "title": "Moving a thread to This Mac no longer freezes Ensemble",
+          "body": "Messages you send right after the move show at once too."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.3",
       "date": "2026-11-18",
       "beta": true,
