@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.6",
+      "date": "2026-11-20",
+      "beta": true,
+      "changes": [
+        {
+          "id": "move-and-start-strips",
+          "kind": "improved",
+          "title": "Moving or starting a thread shows above the message box",
+          "body": "Where it's going and how long it's taking, without filling the chat; your open tabs stay after a move."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.5",
       "date": "2026-11-19",
       "beta": true,
