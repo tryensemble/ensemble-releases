@@ -1,35 +1,35 @@
 {
-  "version": "0.3.3-beta.6",
+  "version": "0.3.3-beta.7",
   "notes": "",
-  "pub_date": "2026-11-20T10:13:40.279Z",
+  "pub_date": "2026-11-22T10:35:55.481Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnNlYWdTdlZJV3dMMllLVVRXNi90RHlWR2M2cU5VRlpuM25VSzM0ZFdIUVpIcWx3R3VUVjcxMjlMTWsyd0p1QW9YYllvU01LTEZFL2s4dWd3dVltdXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY5NDkwCWZpbGU6RW5zZW1ibGUuYXBwLnRhci5negl2ZXJzaW9uOjAuMy4zLWJldGEuNgozQk1ld0EzejdHNENZbXRqVWJrNGhmK2FVVmwyZ0VJZi9idjdEeVIrTmxtUXJycTNsWkZGbkpnN1QwQSt2M3VWSzR3MnN0VW9aYk9KZGZwQ0RTWFdBdz09Cg==",
-      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.6/Ensemble_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnVLNUVsc0JxWTUzL0MvTEhhRi9MazJKVXJtRkd6MUdjR2dvNVRWbEptYytBVXBqekZFZTlMMXRXa0FQS0NOSEFJYnk4elFqRWNkK2N2cm9VcUxZQkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzNTY4CWZpbGU6RW5zZW1ibGUuYXBwLnRhci5negl2ZXJzaW9uOjAuMy4zLWJldGEuNwp4d1FSd0ZFNTJybEdYNWJrNkt0WkFNQ2syVkVHVTRMcVdLWkplbVBVem9OYmR4SDhxQytkbVRLanI1UzhTOFpIdTRWaXNkOWNhbzV0WGRSNHVZS01BQT09Cg==",
+      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.7/Ensemble_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnNlYWdTdlZJV3dMMllLVVRXNi90RHlWR2M2cU5VRlpuM25VSzM0ZFdIUVpIcWx3R3VUVjcxMjlMTWsyd0p1QW9YYllvU01LTEZFL2s4dWd3dVltdXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY5NDkwCWZpbGU6RW5zZW1ibGUuYXBwLnRhci5negl2ZXJzaW9uOjAuMy4zLWJldGEuNgozQk1ld0EzejdHNENZbXRqVWJrNGhmK2FVVmwyZ0VJZi9idjdEeVIrTmxtUXJycTNsWkZGbkpnN1QwQSt2M3VWSzR3MnN0VW9aYk9KZGZwQ0RTWFdBdz09Cg==",
-      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.6/Ensemble_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnVLNUVsc0JxWTUzL0MvTEhhRi9MazJKVXJtRkd6MUdjR2dvNVRWbEptYytBVXBqekZFZTlMMXRXa0FQS0NOSEFJYnk4elFqRWNkK2N2cm9VcUxZQkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzNTY4CWZpbGU6RW5zZW1ibGUuYXBwLnRhci5negl2ZXJzaW9uOjAuMy4zLWJldGEuNwp4d1FSd0ZFNTJybEdYNWJrNkt0WkFNQ2syVkVHVTRMcVdLWkplbVBVem9OYmR4SDhxQytkbVRLanI1UzhTOFpIdTRWaXNkOWNhbzV0WGRSNHVZS01BQT09Cg==",
+      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.7/Ensemble_aarch64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnFNRnhMYjl1WVJTK1NKbG4wNWdjYmFkNzFhNnNCMG1NQ0owa1RrRmkzdVNSZGppa1lvZG1idVJBcTdpT0cxbkI5ZDV2RnBnUis4QnJiQkJkVnJQK0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY5MzcxCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS42X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4zLjMtYmV0YS42CnBnSWo1N0h6UHdJRU9pOE8zR0ZsKzlJMlJEMml5TEl0RXVkazFsYm9Pc1QzcTZPUTNFRWcwOHBwTmtHMk1ORjFjYWd0MFgrSHpWTEtJQTRQakZRZEN3PT0K",
-      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.6/Ensemble_0.3.3-beta.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnFuYmhRcmp4aVM3dlRLRkJkUzl2Y3c1SDhUN0VqbXZ2dVQ5eVpHc3JoWlJSSU5TVHpYamlTT2RXSW1HZW9iUXJuTW0rSEc3c1dkZUgyZWpYZDdBSUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzNTAzCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4zLjMtYmV0YS43Ckg0UnJIa29KMGFjdEwxdkJqM0Y3UnlnUlJJbWtvV0dKbTRUU2tvUy9yUlFZam5DYldQaWZIbU41YVdJbGplb0R0M2pOeXR0LzRYTHlPc3pXUmJNMEJnPT0K",
+      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.7/Ensemble_0.3.3-beta.7_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnFNRnhMYjl1WVJTK1NKbG4wNWdjYmFkNzFhNnNCMG1NQ0owa1RrRmkzdVNSZGppa1lvZG1idVJBcTdpT0cxbkI5ZDV2RnBnUis4QnJiQkJkVnJQK0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY5MzcxCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS42X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4zLjMtYmV0YS42CnBnSWo1N0h6UHdJRU9pOE8zR0ZsKzlJMlJEMml5TEl0RXVkazFsYm9Pc1QzcTZPUTNFRWcwOHBwTmtHMk1ORjFjYWd0MFgrSHpWTEtJQTRQakZRZEN3PT0K",
-      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.6/Ensemble_0.3.3-beta.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnFuYmhRcmp4aVM3dlRLRkJkUzl2Y3c1SDhUN0VqbXZ2dVQ5eVpHc3JoWlJSSU5TVHpYamlTT2RXSW1HZW9iUXJuTW0rSEc3c1dkZUgyZWpYZDdBSUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzNTAzCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4zLjMtYmV0YS43Ckg0UnJIa29KMGFjdEwxdkJqM0Y3UnlnUlJJbWtvV0dKbTRUU2tvUy9yUlFZam5DYldQaWZIbU41YVdJbGplb0R0M2pOeXR0LzRYTHlPc3pXUmJNMEJnPT0K",
+      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.7/Ensemble_0.3.3-beta.7_amd64.AppImage"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnZsc2grSTRoZUNlSDdLZVFJUkNHcXQzaUIvMUFZWHpKSnRyVWIzcHM1MTh2bzQ1aWhHRHo4bUZiaUVDUkVkdzB1eXlidWZobmpWZ09CZElyY3gwWFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY5MzcxCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS42X2FtZDY0LmRlYgl2ZXJzaW9uOjAuMy4zLWJldGEuNgp2aHhHeWwwdDJta05NajMwZ29BaGRaN0dwTzNQVU5uRXNCdE5FeGgwNDNSa1VlMU5EZC9NU1VBWVYyTFRIMi9QQUtiazV2QkI2RFhlK0NYN25mQk1Ddz09Cg==",
-      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.6/Ensemble_0.3.3-beta.6_amd64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnVDek9KRDNBZHlzRUV6OGl6NUFiV0pMSCs5S24yU1FlUytvcFREMU93bGZSVFpzOVRrU3k1bGdzazROOGhWcTJzMzdwN2d0YTIwT0lxVHRBWFBZYUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzNTAzCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS43X2FtZDY0LmRlYgl2ZXJzaW9uOjAuMy4zLWJldGEuNwpRTDZXQzB5Q1NmY2tpaHZzbW90ZXhPd3I4SW9NUFNUUEZ1UUx3VjUzZXRIOWN3WmVYc3hpTjNoUm12b29MS2hBU2xMekZ2Tm5LQTZwckZ2WnhlWi9BQT09Cg==",
+      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.7/Ensemble_0.3.3-beta.7_amd64.deb"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnVBQm5UMWFpekZ6NUw2ODVNOGxBdWlndER6SWNYQzlNaEozY1B4bGxaWWVCd014eE9wRDRnYkxURExBa1ZoN0s2OXRoZHlmSksrL2dIQzN5M2w0Z2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY5NTM5CWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS42X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuMy1iZXRhLjYKdk1PdWtLTjV6dnRHSnJtQ2ZkTGZYbitGWk5CSERYM1lJZmFjelUxbTVtbDZSOUZRVCt6dUdYYlNYdjA0ZFNwazlqRCtHYVo2cnZla0grSWVBd0gyQ2c9PQo=",
-      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.6/Ensemble_0.3.3-beta.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWm0rWU1WVWxwQlpabGhicUlpQno0SmhWcEJlTTQ2eTJRZnlqMGY0bVNyVTREdTBPM25qVnFqbENzWUxmZTE3K0dSbDlVeTBEdk5KRmIxdGRGclEyS0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzNzAxCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS43X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuMy1iZXRhLjcKWTdubmdMdHcvRVd1RG1zeTdTbjg3UGhPeEE1aFVkMEtMNHBXczN1UitDaldNYVB3L2t0YWM4amg1KytrenArSFdseThqYXdBcjdZdlRnUFBURk4zQ0E9PQo=",
+      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.7/Ensemble_0.3.3-beta.7_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWnVBQm5UMWFpekZ6NUw2ODVNOGxBdWlndER6SWNYQzlNaEozY1B4bGxaWWVCd014eE9wRDRnYkxURExBa1ZoN0s2OXRoZHlmSksrL2dIQzN5M2w0Z2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY5NTM5CWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS42X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuMy1iZXRhLjYKdk1PdWtLTjV6dnRHSnJtQ2ZkTGZYbitGWk5CSERYM1lJZmFjelUxbTVtbDZSOUZRVCt6dUdYYlNYdjA0ZFNwazlqRCtHYVo2cnZla0grSWVBd0gyQ2c9PQo=",
-      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.6/Ensemble_0.3.3-beta.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYVJxNEhULzBhWm0rWU1WVWxwQlpabGhicUlpQno0SmhWcEJlTTQ2eTJRZnlqMGY0bVNyVTREdTBPM25qVnFqbENzWUxmZTE3K0dSbDlVeTBEdk5KRmIxdGRGclEyS0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzNzAxCWZpbGU6RW5zZW1ibGVfMC4zLjMtYmV0YS43X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuMy1iZXRhLjcKWTdubmdMdHcvRVd1RG1zeTdTbjg3UGhPeEE1aFVkMEtMNHBXczN1UitDaldNYVB3L2t0YWM4amg1KytrenArSFdseThqYXdBcjdZdlRnUFBURk4zQ0E9PQo=",
+      "url": "https://github.com/tryensemble/ensemble-releases/releases/download/v0.3.3-beta.7/Ensemble_0.3.3-beta.7_x64-setup.exe"
     }
   }
 }
