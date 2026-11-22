@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.7",
+      "date": "2026-11-22",
+      "beta": true,
+      "changes": [
+        {
+          "id": "connected-apps-stay-signed-in",
+          "kind": "fixed",
+          "title": "Connected apps stay signed in",
+          "body": "Apps signed in with OAuth renew their sign-in instead of stopping after an hour."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.6",
       "date": "2026-11-20",
       "beta": true,
