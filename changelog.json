@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.11",
+      "date": "2026-11-23",
+      "beta": true,
+      "changes": [
+        {
+          "id": "background-commands-keep-working",
+          "kind": "fixed",
+          "title": "Sessions waiting on a command stay under Working",
+          "body": "A session whose agent watches a CI run or a build it started stays under Working until its turn ends, and its row says what it waits on."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.10",
       "date": "2026-11-23",
       "beta": true,
@@ -28,7 +41,7 @@
           "id": "background-work-reads-right",
           "kind": "fixed",
           "title": "Work left in the background shows as it is",
-          "body": "A session whose helpers work in the background stays under Working; one only waiting on a command it left running says In the background and shows as unread."
+          "body": "A session whose helpers work in the background stays under Working."
         },
         {
           "id": "archive-asks-at-once",
