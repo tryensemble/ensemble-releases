@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.10",
+      "date": "2026-11-23",
+      "beta": true,
+      "changes": [
+        {
+          "id": "pull-requests-page",
+          "kind": "new",
+          "title": "Review every project's pull requests in one place",
+          "body": "Pull requests in the sidebar lists them across your projects; open one to read it, comment on its lines, approve or ask for changes, or have an agent review it."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.9",
       "date": "2026-11-23",
       "beta": true,
