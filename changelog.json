@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.8",
+      "date": "2026-11-23",
+      "beta": true,
+      "changes": [
+        {
+          "id": "long-threads-keep-their-place",
+          "kind": "fixed",
+          "title": "Long threads keep their place",
+          "body": "A long conversation is kept when its thread moves or loses its machine, and drafts and messages follow a move."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.7",
       "date": "2026-11-22",
       "beta": true,
