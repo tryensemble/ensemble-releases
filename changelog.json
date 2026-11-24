@@ -1,6 +1,31 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.12",
+      "date": "2026-11-24",
+      "beta": true,
+      "changes": [
+        {
+          "id": "replies-stream-smoothly",
+          "kind": "improved",
+          "title": "Replies stream in smoothly",
+          "body": "The agent's words come in at an even pace instead of in bursts, and Thinking no longer flashes once it's done."
+        },
+        {
+          "id": "changes-filter-and-tree",
+          "kind": "improved",
+          "title": "Find your way around a long change",
+          "body": "Filter the changed files, see them as a folder tree, and drag the file list wider."
+        },
+        {
+          "id": "screenshot-shortcuts-work",
+          "kind": "fixed",
+          "title": "The screenshot shortcuts work again",
+          "body": "⌘⇧3, ⌘⇧4 and ⌘⇧5 take a screenshot instead of opening a session."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.11",
       "date": "2026-11-23",
       "beta": true,
