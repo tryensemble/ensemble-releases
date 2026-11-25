@@ -1,6 +1,31 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.13",
+      "date": "2026-11-25",
+      "beta": true,
+      "changes": [
+        {
+          "id": "gemini-cli-agent",
+          "kind": "new",
+          "title": "Gemini CLI joins Claude Code and Codex",
+          "body": "Pick Gemini for a thread or a chat, signed in with your Google account or a Gemini API key."
+        },
+        {
+          "id": "snooze-threads",
+          "kind": "new",
+          "title": "Snooze a thread until later",
+          "body": "It waits under Snoozed and comes back unread when its time comes, or sooner if it needs you; Working folds away once nothing runs."
+        },
+        {
+          "id": "messages-during-an-edit",
+          "kind": "fixed",
+          "title": "Messages sent while you edit one go with it",
+          "body": "They join the edited turn instead of waiting behind it, and the chat shows the edit is under way."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.12",
       "date": "2026-11-24",
       "beta": true,
