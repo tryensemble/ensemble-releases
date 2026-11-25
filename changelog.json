@@ -1,16 +1,29 @@
 {
   "versions": [
     {
-      "version": "0.3.3-beta.13",
+      "version": "0.3.3-beta.14",
       "date": "2026-11-25",
       "beta": true,
       "changes": [
         {
-          "id": "gemini-cli-agent",
+          "id": "antigravity-agent",
           "kind": "new",
-          "title": "Gemini CLI joins Claude Code and Codex",
-          "body": "Pick Gemini for a thread or a chat, signed in with your Google account or a Gemini API key."
+          "title": "Antigravity joins Claude Code and Codex",
+          "body": "Pick it for a thread or a chat on this computer once you've signed in by running agy in a terminal; threads that ran Gemini CLI carry on with it."
         },
+        {
+          "id": "sub-threads-run-the-model-you-name",
+          "kind": "improved",
+          "title": "Sub-threads run the model you name",
+          "body": "Ask the agent to have a model by name take on part of the work, and its sub-thread runs that model."
+        }
+      ]
+    },
+    {
+      "version": "0.3.3-beta.13",
+      "date": "2026-11-25",
+      "beta": true,
+      "changes": [
         {
           "id": "snooze-threads",
           "kind": "new",
