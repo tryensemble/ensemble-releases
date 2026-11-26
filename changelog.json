@@ -1,16 +1,29 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.15",
+      "date": "2026-11-26",
+      "beta": true,
+      "changes": [
+        {
+          "id": "faster-cloud-starts-without-ensemble-toml",
+          "kind": "improved",
+          "title": "Cloud threads start faster in every project",
+          "body": "Projects without an ensemble.toml get a ready image too, so a new thread catches up instead of cloning from scratch."
+        },
+        {
+          "id": "message-after-stop-runs-at-once",
+          "kind": "fixed",
+          "title": "A message sent right after Stop runs at once",
+          "body": "It no longer waits behind the stopped turn, which could take a minute in a cloud sandbox."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.14",
       "date": "2026-11-25",
       "beta": true,
       "changes": [
-        {
-          "id": "antigravity-agent",
-          "kind": "new",
-          "title": "Antigravity joins Claude Code and Codex",
-          "body": "Pick it for a thread or a chat on this computer once you've signed in by running agy in a terminal; threads that ran Gemini CLI carry on with it."
-        },
         {
           "id": "sub-threads-run-the-model-you-name",
           "kind": "improved",
