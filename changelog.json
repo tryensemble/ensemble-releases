@@ -1,6 +1,31 @@
 {
   "versions": [
     {
+      "version": "0.3.3-beta.16",
+      "date": "2026-11-27",
+      "beta": true,
+      "changes": [
+        {
+          "id": "agents-act-on-any-thread",
+          "kind": "new",
+          "title": "Agents can work with your other threads",
+          "body": "Ask an agent to start a thread, message one, or let you know when another's turn ends or its PR merges, in any of your projects."
+        },
+        {
+          "id": "moves-push-work-themselves",
+          "kind": "improved",
+          "title": "Moving a thread takes its work along",
+          "body": "Uncommitted and unpushed work is pushed as the thread moves, instead of asking first."
+        },
+        {
+          "id": "chat-eases-to-new-lines",
+          "kind": "improved",
+          "title": "The chat glides down to new lines",
+          "body": "New lines ease into view at the bottom instead of making the chat jump."
+        }
+      ]
+    },
+    {
       "version": "0.3.3-beta.15",
       "date": "2026-11-26",
       "beta": true,
